@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  height: 100%;
+   align-items: center;
+   overflow: hidden;
+   }
+.container-fluid{
+        display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}   
+.col-8, .col-4{
+     border: 5px solid rgb(134, 195, 236);
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    align-items: center;
+}
+.row{
+    height: 100%;
+    width: 100%;
+}
