@@ -4,11 +4,13 @@
     position: absolute;
     align-self: center;
     border-style: groove;
+    background-size: auto 100%;
+  background-position: center;
+    transition: transform 120ms ease-in-out;
 }
 .circle-1{
-  background-image: url("../img/TextAdvGame.png");
-background-size: auto 100%;
-  background-position: bottom;
+  background-image: url("../img/codehsidle.jpeg");
+
   z-index: 100;
     -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940),shake-horizontal 1.0s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.6s ;
 	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940),shake-horizontal 1.0s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.6s ;
@@ -16,7 +18,9 @@ background-size: auto 100%;
     height: 300px;
     cursor: pointer;
 }
+
 .circle-2{
+  background-image: url("../img/physics.png");
   z-index: 90;
    -webkit-animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940), shake-horizontal 1.3s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.8s ;
 	        animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940), shake-horizontal 1.3s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.8s ;
@@ -24,20 +28,27 @@ background-size: auto 100%;
     height: 600px;
     cursor: pointer;
 }
+
 .circle-3{
+  background-image: url("../img/TextAdvGame.png");
   z-index: 80;
     -webkit-animation: scale-in-center 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940), shake-horizontal 1.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.1s ;
 	        animation: scale-in-center 1.1s cubic-bezier(0.250, 0.460, 0.450, 0.940), shake-horizontal 1.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.1s ;
     width: 900px;
     height: 900px;
+     cursor: pointer;
 }
+
 .circle-4{
+  background-image: url("../img/clock.png");
   z-index: 70;
     -webkit-animation: scale-in-center 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940), shake-horizontal 1.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.4s ;
 	        animation: scale-in-center 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940), shake-horizontal 1.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1.4s ;
     width: 1200px;
     height: 1200px;
+     cursor: pointer;
 }
+
 .circle-5{
   z-index: 60;
     -webkit-animation: scale-in-center 1.7s cubic-bezier(0.250, 0.460, 0.450, 0.940), shake-horizontal 1.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2.0s  ;
@@ -45,6 +56,7 @@ background-size: auto 100%;
     width: 1500px;
     height: 1500px;
 }
+
 .circle-6{
     z-index: 50;
     -webkit-animation: scale-in-center 2.0s cubic-bezier(0.250, 0.460, 0.450, 0.940), shake-horizontal 1.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 2.3s ;
@@ -68,6 +80,11 @@ html, body {
     padding: 0px;
     margin: 0px;
 }   
+.circle-1:hover, .circle-2:hover, .circle-3:hover, .circle-4:hover, .circle-5:hover, .circle-6:hover{
+  border-color: rgb(255, 105, 180);
+}
+
+
 
 @-webkit-keyframes scale-in-center {
   0% {

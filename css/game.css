@@ -25,3 +25,36 @@ html, body {
     height: 100%;
     width: 100%;
 }
+.header{
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid rgb(134, 195, 236);
+}
+.monster{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+}
+img {
+    
+    max-width: 40%;
+    max-height: 50%;
+    cursor: pointer;
+    /* border: 5px solid rgb(134, 195, 236); */
+}
+.points{
+    color: white;
+    border: 5px solid rgb(134, 195, 236);
+    max-width: 30%;
+    max-height: 100%;
+    justify-self: right;
+}
+.col-6{
+     margin: 0;
+    padding: 10px;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
