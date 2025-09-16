@@ -1,4 +1,4 @@
-let points = 100000;
+let points = 0;
 let clickMult = 1;
 let idleMult = 1;
 let idleCost = 200;

@@ -1,93 +1,130 @@
-html, body {
-  margin: 0;
-  height: 100%;
-   align-items: center;
-   overflow: hidden;
+html,
+body {
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
     color: whitesmoke;
-   }
-.container-fluid{
-        display: flex;
+}
+
+.container-fluid {
+    display: flex;
     flex-flow: wrap;
     justify-content: center;
     align-content: center;
     height: 100%;
     padding: 0px;
     margin: 0px;
-}   
-.col-8, .col-4{
-     border: 2px solid rgb(134, 195, 236);
+}
+
+.col-8,
+.col-4 {
+    border: 2px solid rgb(134, 195, 236);
     background-color: black;
     margin: 0;
     padding: 10px;
     height: auto;
     align-items: center;
 }
-.row{
+
+.row {
     height: 100%;
     width: 100%;
 }
-.header{
+
+.header {
     text-align: center;
     color: white;
     border-bottom: 5px solid rgb(134, 195, 236);
     font-size: 3em;
 }
-.monster{
-    height: 100%;
+
+.monster {
+    height: 80%;
     width: 100%;
 }
-img {
-    
+
+#monster {
     max-width: 50%;
     max-height: 70%;
     cursor: pointer;
-    /* border: 5px solid rgb(134, 195, 236); */
+    /* height: 100vh; */
+    width: 100vh;
 }
-.points{
+
+.points {
     color: white;
     border: 5px solid rgb(134, 195, 236);
     max-width: 100%;
     max-height: 100%;
     justify-self: right;
-       font-size: 2em;
+    font-size: 2em;
 }
-.col-6{
-     margin: 0;
+
+.col-6 {
+    margin: 0;
     padding: 10px;
     height: auto;
     align-items: center;
     display: flex;
     justify-content: center;
 }
-.col-3{
- margin: 0;
+
+.col-3,
+.col-2 {
+    margin: 0;
     padding: 10px;
     height: auto;
     display: flex;
     justify-content: center;
 }
-.upgradesSection{
+.col-2{
+    height: 100%;
+}
+
+.upgradesSection {
     height: auto;
     width: 100%;
     color: white;
 }
-.upgrade{
+
+.upgrade {
     border: 5px solid rgb(134, 195, 236);
     width: 100%;
     height: 100%;
-       font-size: 1em;
-       text-align: center;
-       align-content: center;
+    font-size: 1em;
+    text-align: center;
+    align-content: center;
 }
-.fix{
+
+.fix {
     width: 100%;
     height: 10%;
 }
-#idleUpgrade, #idleMore,#critChance, #clickOne, #critMore, #critDmg, #idleUpgrade2, #idleMore2{
+
+#idleUpgrade,
+#idleMore,
+#critChance,
+#clickOne,
+#critMore,
+#critDmg,
+#idleUpgrade2,
+#idleMore2 {
     cursor: pointer;
 }
-#critMore, #idleMore, #critDmg, #idleMore2{
+
+#critMore,
+#idleMore,
+#critDmg,
+#idleMore2 {
     opacity: 0.1;
     pointer-events: none;
     cursor: none;
+}
+
+.charactersSection {
+    height: 100%;
+}
+.character{
+    cursor: pointer;
 }
